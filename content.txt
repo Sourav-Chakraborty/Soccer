@@ -1,0 +1,17 @@
+1>index.html:
+    a.nav bar
+    b.poster
+    c.History 
+    d.Greats of the agme
+    e.modern masters
+    f.world cup time line
+    g.footer
+2>fixture:
+    a.upcoming games
+    b.previous games with result
+3.Know your team:
+    a.breif History
+    b.current coach & captain
+    c.cup win details
+
+    
