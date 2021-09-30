@@ -12,6 +12,12 @@ function splitScroll(){
     .addTo(controller)
 }
 
+const nextPage=(n)=>{
+    render(n)
+}
+
+
+
 splitScroll()
 
 

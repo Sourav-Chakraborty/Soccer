@@ -1,4 +1,11 @@
-// import  './data'  
+
+console.log("Hello world")
+const queryString = window.location.search; 
+
+const urlParams = new URLSearchParams(queryString);
+const match = urlParams.get('abc')
+
+
 const winOrLoss=(n)=>{
     if(n===1)
         return 'other_images/correct.png'
@@ -9,10 +16,11 @@ const winOrLoss=(n)=>{
 
 }
 
-const render=(n)=>{
+const render=()=>{
    result.map((item)=>{ 
-    if(item.No!=n)
-        return;
+    if(item.No!=match)
+        return console.log("Sorry did not match")
+     
     document.getElementById('Number').innerText='Match No '+item.No;
     document.getElementById('dateTime').innerText=item.date
     document.getElementById('team1_image').src=item.img1
@@ -53,3 +61,5 @@ const render=(n)=>{
 })
 
 }
+
+render()
