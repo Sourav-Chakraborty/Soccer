@@ -7,9 +7,12 @@ function splitScroll(){
         triggerElement:'.upcoming_left',
         triggerHook:0
     })
-    .addIndicators()
+    // .addIndicators()
     .setPin('.upcoming_left')
     .addTo(controller)
 }
 
 splitScroll()
+
+
+

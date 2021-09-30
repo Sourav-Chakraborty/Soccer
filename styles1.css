@@ -114,5 +114,8 @@ footer {
     .upcoming_right{
         height: 200vh;
     }
+    .mobile {
+      height: 214vh;
+  }
   }
   
