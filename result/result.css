@@ -6,7 +6,9 @@
     margin: 0;
     padding: 0;
 }
-
+.diff{
+  margin-left: 5px;
+}
 
 
 .space{
@@ -36,10 +38,11 @@
     margin-left: 10px;
 }
 .team1{
-    float: left;
+    text-align: center;
 }
 .team2{
-    float: right;
+  text-align: center;
+   
 }
 
 
@@ -161,7 +164,7 @@ footer {
         margin-left: 0;
     }
     .score{
-        margin-right: 48%;
+        margin-right: 33%;
     }
     
   }
