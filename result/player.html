@@ -50,46 +50,46 @@
 
 
     <div style="height: 70px;"></div>
-    <h1 class="text-center container card text-center" style="padding: 10px;" >Diego Maradona</h1>
+    <h1 id="name" class="text-center container card text-center" style="padding: 10px;" ></h1>
     <div style="height: 60px;"></div>
     <div class="container profile">
 
         <div class=" card card1">
-            <img src="../players/Maradona.jfif" class="playerImg" alt="">
+            <img id="image"  class="playerImg" alt="">
         </div>
         <div class="info card">
             <h2 class="text-center">Overview</h2>
             <div class="row" style="margin-top: 7px;">
                 <div class="col-4">
-                    <p> <b> Full Name</b> <br> Diego Armando Maradona</p>
+                    <p> <b> Full Name</b> <br> <span id="full_name"></span> </p>
                 </div>
                 <div class="col-4">
-                    <p> <b> Born</b> <br>1960</p>
+                    <p> <b> Born</b> <br> <span id="born"></span> </p>
 
                 </div>
                 <div class="col-4">
-                    <p> <b> Died</b> <br> 2020</p>
+                    <p> <b> <span id="age">Died</span> </b> <br> <span id="died"></span> </p>
 
                 </div>
                 <div class="col-4">
-                    <p> <b> Nationality</b> <br> Argentinian </p>
+                    <p> <b> Nationality</b> <br> <span id="country"></span>  </p>
 
                 </div>
                 <div class="col-4">
-                    <p> <b> Height</b> <br> 1.65m </p>
+                    <p> <b> Height</b> <br> <span id="height"></span>  </p>
 
                 </div>
 
                 <div class="col-4">
-                    <p> <b> Strong-Foot</b> <br> Left </p>
+                    <p> <b> Strong-Foot</b> <br> <span id="foot"></span>  </p>
 
                 </div>
                 <div class="col-4">
-                    <p> <b> Position</b> <br> Midfield </p>
+                    <p> <b> Position</b> <br> <span id="pos"></span>  </p>
 
                 </div>
                 <div class="col-4">
-                    <p> <b> Shirt no.</b> <br> 10 </p>
+                    <p> <b> Shirt no.</b> <br> <span id="number"></span>  </p>
 
                 </div>
             </div>
@@ -106,11 +106,11 @@
         <div class="overview">
             <div class="matches card text-center" >
                 <h2>Matches</h2>
-                    <h1 id="counter">100</h1>
+                    <h1 id="match"></h1>
             </div>
             <div class="goals card text-center ">
                 <h2 >Goals</h2>
-                <h1>100</h1>
+                <h1 id="goal"></h1>
             </div>
         </div>
     </div>
@@ -131,42 +131,42 @@
             <tbody>
               <tr>
                 <th scope="row">1</th>
-                <td>Argentinos Juniors</td>
-                <td> Primera División</td>
-                <td>167</td>
-                <td>115</td>
+                <td class="club"></td>
+                <td class="league"> </td>
+                <td class="leg_match"></td>
+                <td class="leg_goal"></td>
 
               </tr>
               <tr>
                 <th scope="row">2</th>
-                <td>Boca Juniors</td>
-                <td> Primera División</td>
-                <td>40</td>
-                <td>28</td>
+                <td class="club"></td>
+                <td class="league"> </td>
+                <td class="leg_match"></td>
+                <td class="leg_goal"></td>
 
               </tr>
               <tr>
                 <th scope="row">3</th>
-                <td>Barcelona</td>
-                <td> La Liga</td>
-                <td>58</td>
-                <td>28</td>
+                <td class="club"></td>
+                <td class="league"> </td>
+                <td class="leg_match"></td>
+                <td class="leg_goal"></td>
 
               </tr>
               <tr>
                 <th scope="row">4</th>
-                <td>Napoli</td>
-                <td>Serie A</td>
-                <td>259</td>
-                <td>115</td>
+                <td class="club"></td>
+                <td class="league"></td>
+                <td class="leg_match"></td>
+                <td class="leg_goal"></td>
 
               </tr>
               <tr>
                 <th scope="row">5</th>
-                <td>Sevilla</td>
-                <td>La Liga</td>
-                <td>28</td>
-                <td>8</td>
+                <td class="club"></td>
+                <td class="league"></td>
+                <td class="leg_match"></td>
+                <td class="leg_goal"></td>
 
               </tr>
             </tbody>
@@ -181,25 +181,25 @@
     <div class="container award owl-carousel">
         
             <div class="trophy">
-                <img src="../trophy/WorldCup.jpg" alt="" class="photo"  >
-                <h3 class="trophyText" >World Cup 1986</h3>
+                <img  alt="" class="photo"  >
+                <h3 class="trophyText" ></h3>
             </div>
             <div class="trophy">
-                <img src="../trophy/euro.jfif" alt="" class="photo"  >
-                <h3 class="trophyText" >UEFA EURO 1989</h3>
+                <img  alt="" class="photo"  >
+                <h3 class="trophyText" ></h3>
             </div>
         
             <div class="trophy">
-                <img src="../trophy/copa.jpg" alt="" class="photo"  >
-                <h3 class="trophyText" >Copa Del Rey 1983</h3>
+                <img  alt="" class="photo"  >
+                <h3 class="trophyText" ></h3>
             </div>
             <div class="trophy">
-                <img src="../trophy/super.png" alt="" class="photo"  >
-                <h3 class="trophyText" >Spainish Super Cup 1983</h3>
+                <img  alt="" class="photo"  >
+                <h3 class="trophyText" ></h3>
             </div>
             <div class="trophy">
-                <img src="../trophy/italy.png" alt="" class="photo"  >
-                <h3 class="trophyText" >Italy Cup 1987</h3>
+                <img  alt="" class="photo"  >
+                <h3 class="trophyText" ></h3>
             </div>
     </div>
     <div class="space"></div>
@@ -262,7 +262,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
     
-    
+    <script src="../data.js"></script>
     <script src="./player.js"></script>
 
 </body>

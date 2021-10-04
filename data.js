@@ -697,6 +697,34 @@ const summary=[
 
 
 ]
+const player=[
+    {
+        "id":"1",
+        "name":"Diego Maradona",
+        "img":"../players/Maradona.jfif",
+        "full name":"Diego Armando Maradona",
+        "born":"1960",
+        "died":"2020",
+        "age":null,
+        "country":"Argentinian",
+        "height":"1.65m",
+        "foot":"Left",
+        "pos":"Midfield",
+        "number":"10",
+        "match":"100",
+        "goal":"100",
+        "club":["Argentinos Juniors","Boca Juniors","Barcelona","Napoli","Sevilla"],
+        "league":["Primera División","Primera División","La Liga","Serie A","La Liga"],
+        "leg_match":["167","40","58","259","28"],
+        "leg_goal":["115","28","28","115","8"],
+        "photo":["../trophy/WorldCup.jpg","../trophy/euro.jfif","../trophy/copa.jpg","../trophy/super.png","../trophy/italy.png"],
+        "trophyText":["World Cup 1986","UEFA EURO 1989","Copa Del Rey 1983","Spainish Super Cup 1983","Italy Cup 1987"]
+        
+    }
+
+
+
+]
 
     
 
