@@ -3,7 +3,7 @@ $(document).ready(function(){
     $(".owl-carousel").owlCarousel({ 
       
       loop:true,
-      margin:20,
+      margin:30,
       autoplay:true,
       autoplayTimeout:2000,
       autoplayHoverPause:true,
@@ -17,9 +17,6 @@ $(document).ready(function(){
           nav:false
         },1000:{
           items:3,
-          nav:false
-        },1200:{
-          items:4,
           nav:false
         }
   
