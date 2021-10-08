@@ -6,13 +6,15 @@
     display: flex;
     flex-wrap: wrap;
 }
-.card1{
-    width: 40%;
+.card.card1 {
+    width: 350px;
+    height: 373px;
 }
 .heading{
     width: 500px; 
     padding: 8px;
 }
+
 .card {
 
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
