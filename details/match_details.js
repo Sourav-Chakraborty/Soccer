@@ -8,11 +8,11 @@ const match = urlParams.get('abc')
 
 const winOrLoss=(n)=>{
     if(n===1)
-        return 'other_images/correct.png'
+        return '../'+'other_images/correct.png'
     else if(n===0)
-        return 'other_images/wrong.jpg'
+        return '../'+'other_images/wrong.jpg'
     else
-        return 'other_images/draw.png'
+        return '../'+'other_images/draw.png'
 
 }
 
@@ -23,12 +23,12 @@ const render=()=>{
      
     document.getElementById('Number').innerText='Match No '+item.No;
     document.getElementById('dateTime').innerText=item.date
-    document.getElementById('team1_image').src=item.img1
+    document.getElementById('team1_image').src='../'+item.img1
     document.getElementById('team1_name').innerText=item.team1
-    document.getElementById('team2_image').src=item.img2
+    document.getElementById('team2_image').src='../'+item.img2
     document.getElementById('team2_name').innerText=item.team2
-    document.getElementById('team1_img').src=item.img1
-    document.getElementById('team2_img').src=item.img2
+    document.getElementById('team1_img').src='../'+item.img1
+    document.getElementById('team2_img').src='../'+item.img2
     document.getElementById('team1_matches').innerText=item.matches
     document.getElementById('team2_matches').innerText=item.matches
     document.getElementById('team1_win').innerText=item.team1_win
