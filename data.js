@@ -243,7 +243,7 @@ const result=[
     "team1":"Brazil",
     "team2":"Netherland",
     "img1":"flag/Brazil.png",
-    "img2":"flag/Netherland.png",
+    "img2":"flag/Netharland.png",
     "team1_prob":"60%",
     "team2_prob":"40%",
     "matches":"9",

@@ -1,7 +1,7 @@
 .jumbotron{
     /* margin-top: 500px; */
     height: 150vh;
-    background-image: url('team_images/italy.jpg');
+    background-image: url('../team_images/italy.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
