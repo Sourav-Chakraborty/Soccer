@@ -1,3 +1,6 @@
+
+
+
 var navbar = document.querySelector('nav')
 const caption=['The game that define itself','More than 2000 player from 180 contries','200+ match per day']
 

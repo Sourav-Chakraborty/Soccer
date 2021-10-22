@@ -1011,6 +1011,30 @@ const player=[
         
     },
     {
+        "id":"14",
+        "name":"Paolo Maldini",
+        "img":"../players/maldini.jfif",
+        "full name":"Paolo Cesare Maldini",
+        "born":"1968",
+        "died":null,
+        "age":"53",
+        "country":"Italian",
+        "height":"1.86m",
+        "foot":"Left",
+        "pos":"Defender",
+        "number":"3",
+        "match":"126",
+        "goal":"7",
+        "club":["Milan","..","..","..",".."],
+        "league":["Seria A","...","...","...","..."],
+        "leg_match":["647","...","...","...","..."],
+        "leg_goal":["29","...","...","...","..."],
+        "photo":["../trophy/trophy.jfif","../trophy/trophy.jfif","../trophy/trophy.jfif","../trophy/trophy.jfif","../trophy/trophy.jfif"],
+       
+        "trophyText":["Seria A 1987","Seria A 1993","Bravo Award: 1989","Ballon d'Or:2003","World Cup 2006"]
+        
+    },
+    {
         "id":"15",
         "name":"Roberto Baggio",
         "img":"../players/roberto.jpg",
